@@ -1,0 +1,57 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1533239111758-7d9b96218c55?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+}
+.main-container {
+  width: 450px;
+  margin-top: 100px;
+  background-color: #343a40;
+  padding: 25px;
+}
+
+.bootstrap-iso .formden_header h2,
+.bootstrap-iso .formden_header p,
+.bootstrap-iso form {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.bootstrap-iso form button,
+.bootstrap-iso form button:hover {
+  color: white !important;
+}
+.asteriskField {
+  color: red;
+}
+
+.table-produtos {
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.dados-baner {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.fa-trash-alt {
+  cursor: pointer;
+  color: red;
+  margin: 15px;
+}
+
+.fa-user-edit {
+  cursor: pointer;
+  color: green;
+}
